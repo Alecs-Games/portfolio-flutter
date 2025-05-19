@@ -25,9 +25,6 @@ class HeroLayoutCard extends StatelessWidget {
 
   void onElementCreated(Object element) {
     web.HTMLIFrameElement IFrame = (element as web.HTMLIFrameElement);
-    /*IFrame.innerHTML =
-                  "<iframe frameborder=\"0\" src=\"https://itch.io/embed-upload/12121137?color=ffffff\" allowfullscreen=\"\" width=\"1024\" height=\"596\"><a href=\"https://bungus-productions.itch.io/going-outside-simulator-2\">Play Going Outside Simulator 2 on itch.io</a></iframe>\""
-                      .toJS;*/
     IFrame.frameBorder = "0";
     IFrame.src = embed;
     IFrame.width = embedWidth.toString();
@@ -46,7 +43,7 @@ class HeroLayoutCard extends StatelessWidget {
           child: OverflowBox(
             maxWidth: width * 7 / 8,
             minWidth: width * 7 / 8,
-            child: Image(fit: BoxFit.cover, image: NetworkImage(image)),
+            child: Image(fit: BoxFit.cover, image: AssetImage(image)),
           ),
         ),
         Padding(
