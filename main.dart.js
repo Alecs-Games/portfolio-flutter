@@ -64973,8 +64973,8 @@ $1(a){var s=J.oc(0,t.gs)
 return A.uP(u.E,"Apr 2023 - Jun 2023","A command-line debugger written in Java with an eye for simplicity and educational use and extendability in the source code.",s,"Software Development \xb7 Java \xb7 Computer Architecture","MIPS Debugger")},
 $S:34}
 A.XY.prototype={
-$1(a){var s="https://itch.io/embed-upload/12121137?color=ffffff",r=1024
-return A.uP("Bungus Productions","Jan 2020 - Jan 2021 (With updates and support after)","Emergent gameplay in a map packed with secrets and randomly-generated sandbox elements. Winner of the Finally Finish Something 2021 Game Jam out of over 300 entries!",A.c([A.Cz("",s,"","",596,r,"images/GOS2Town.png",""),A.Cz("",s,"","",596,r,"images/GOS2Forest.png",""),A.Cz("",s,"","",596,r,"images/GOS2City.png",""),A.Cz("",s,"","",596,r,"images/GOS2Stream.png","")],t.gf),"Unity Testing","Going Outside Simulator 2")},
+$1(a){var s="https://itch.io/embed-upload/12121137?color=ffffff",r=1024,q="WASD-Move Spacebar-Jump Enter-Interact Esc-Pause"
+return A.uP("Bungus Productions","Jan 2020 - Jan 2021 (With updates and support after)","Emergent gameplay in a map packed with secrets and randomly-generated sandbox elements. Winner of the Finally Finish Something 2021 Game Jam out of over 300 entries!",A.c([A.Cz("",s,"",q,596,r,"images/GOS2Town.png",""),A.Cz("",s,"",q,596,r,"images/GOS2Forest.png",""),A.Cz("",s,"",q,596,r,"images/GOS2City.png",""),A.Cz("",s,"",q,596,r,"images/GOS2Stream.png","")],t.gf),"Unity Testing","Going Outside Simulator 2")},
 $S:34}
 A.lx.prototype={
 ak(){return new A.ID(new A.bi(null,t.sW))}}
