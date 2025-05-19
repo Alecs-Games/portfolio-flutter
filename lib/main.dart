@@ -101,7 +101,8 @@ class MyApp extends StatelessWidget {
                   embedWidth: 1024,
                   embedHeight: 596,
                   embedAllow: "",
-                  embedDetails: "",
+                  embedDetails:
+                      "WASD-Move Spacebar-Jump Enter-Interact Esc-Pause",
                 ),
                 HeroLayoutCard(
                   image: "images/GOS2Forest.png",
@@ -111,7 +112,8 @@ class MyApp extends StatelessWidget {
                   embedWidth: 1024,
                   embedHeight: 596,
                   embedAllow: "",
-                  embedDetails: "",
+                  embedDetails:
+                      "WASD-Move Spacebar-Jump Enter-Interact Esc-Pause",
                 ),
                 HeroLayoutCard(
                   image: "images/GOS2City.png",
@@ -121,7 +123,8 @@ class MyApp extends StatelessWidget {
                   embedWidth: 1024,
                   embedHeight: 596,
                   embedAllow: "",
-                  embedDetails: "",
+                  embedDetails:
+                      "WASD-Move Spacebar-Jump Enter-Interact Esc-Pause",
                 ),
                 HeroLayoutCard(
                   image: "images/GOS2Stream.png",
@@ -131,7 +134,8 @@ class MyApp extends StatelessWidget {
                   embedWidth: 1024,
                   embedHeight: 596,
                   embedAllow: "",
-                  embedDetails: "",
+                  embedDetails:
+                      "WASD-Move Spacebar-Jump Enter-Interact Esc-Pause",
                 ),
               ],
             ),
